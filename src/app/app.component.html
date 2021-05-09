@@ -1,0 +1,18 @@
+<div class="container py-2">
+  <h2>On Buttons Active</h2>
+  <hr/>
+
+  <div class="btn-group w-100">
+    <a class="btn btn-base" [routerLink]="'/foo/one'" [routerLinkActive]="'active'">
+      One
+    </a>
+    <a class="btn btn-base" [routerLink]="'/foo/two'" [routerLinkActive]="'active'">
+      Two
+    </a>
+    <a class="btn btn-base" [routerLink]="'/foo/three'" [routerLinkActive]="'active'">
+      Three
+    </a>
+  </div>
+
+  <router-outlet></router-outlet>
+</div>

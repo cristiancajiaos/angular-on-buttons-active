@@ -1,0 +1,18 @@
+$base-color: #009ea2;
+
+.btn-base {
+  color: white;
+  background-color: $base-color;
+
+  &:hover{
+    background-color: darken($color: $base-color, $amount: 10) !important;
+  }
+
+  &:focus {
+    background-color: darken($color: $base-color, $amount: 10) !important;
+  }
+
+  &.active {
+    background-color: darken($color: $base-color, $amount: 10) !important;
+  }
+}
